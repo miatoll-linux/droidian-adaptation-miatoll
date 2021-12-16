@@ -12,7 +12,7 @@ Architecture: all
 Depends: ${misc:Depends},
          lxc-android (>= 1:9),
          ofono-scripts,
-         linux-bootimage-miatoll,
+         linux-bootimage-xiaomi-miatoll,
          adaptation-hybris-api29-phone,
          adaptation-miatoll,
 Description: adapatation-miatoll- meta
