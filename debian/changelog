@@ -1,3 +1,9 @@
+adaptation-miatoll (1.0.1) bookworm; urgency=medium
+
+  * Fix miatoll.list.
+
+ -- Marcel Alexandru Nitan <nitan.marcel@protonmail.com>  Fri, 03 Jun 2022 19:53:20 +0300
+
 adaptation-miatoll (1.0.0) bookworm; urgency=medium
 
   * Drop support for bullseye.
