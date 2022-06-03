@@ -1,1 +1,1 @@
-deb https://miatoll-linux.github.io/ppa/debian ./
+deb [signed-by=/usr/share/keyrings/miatoll.gpg] https://miatoll-linux.github.io/ppa/ bookworm main
