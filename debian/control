@@ -1,5 +1,5 @@
 Source: adaptation-miatoll
-Maintainer: Giuseppe `r3vn` Corti
+Maintainer: Marcel Alexandru Nitan
 Section: metapackages
 Priority: optional
 Build-Depends: debhelper (>= 10)
@@ -8,18 +8,17 @@ Vcs-Browser: https://gitlab.com/miatoll-linux/droidian/adaptation-miatoll
 Vcs-Git: https://gitlab.com/miatoll-linux/droidian/adaptation-miatoll.git
 
 Package: adaptation-miatoll
-Architecture: all
+Architecture: arm64
 Depends: ${misc:Depends},
          lxc-android (>= 1:9),
          ofono-scripts,
          linux-bootimage-xiaomi-miatoll,
          adaptation-hybris-api29-phone,
-         adaptation-miatoll,
+         adaptation-miatoll-configs,
 Description: adapatation-miatoll- meta
  Miatoll api29 adaptation metapackage
 
 Package: adaptation-miatoll-configs
-Architecture: all
+Architecture: arm64
 Depends: ${misc:Depends},
-         adaptation-miatoll (= ${binary:Version}),
 Description: Miatoll's specific adaptation configs

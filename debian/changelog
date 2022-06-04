@@ -1,3 +1,10 @@
+adaptation-miatoll (1.0.3) bookworm; urgency=medium
+
+  * Fix package links.
+  * Also package kernel debs when creating sideload package.
+
+ -- Marcel Alexandru Nitan <nitan.marcel@protonmail.com>  Sat, 04 Jun 2022 13:48:20 +0300
+
 adaptation-miatoll (1.0.2) bookworm; urgency=medium
 
   * Fix package links.
