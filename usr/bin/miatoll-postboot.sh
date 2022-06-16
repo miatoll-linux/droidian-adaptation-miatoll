@@ -14,4 +14,4 @@ echo ON | tee /dev/wlan
 echo 0 | tee /sys/module/lowmemorykiller/parameters/*_lmk
 
 # Set swappiness value to 90
-echo 90 | /proc/sys/vm/swappiness
+echo 90 | tee /proc/sys/vm/swappiness
