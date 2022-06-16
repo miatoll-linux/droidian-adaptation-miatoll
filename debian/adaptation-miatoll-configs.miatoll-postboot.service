@@ -4,6 +4,7 @@ Requires=lxc@android.service
 
 [Service]
 Type=oneshot
+Environment=LAUNCHED_BY_SYSTEMD=1
 ExecStartPre=/bin/sleep 5
 ExecStart=/usr/bin/miatoll-postboot.sh
 
