@@ -1,3 +1,9 @@
+adaptation-miatoll (1.0.8) bookworm; urgency=medium
+
+  * Fix swappines value
+
+ -- Marcel Alexandru Nitan <nitan.marcel@protonmail.com>  Thu, 16 Jun 2022 19:52:24 +0300
+
 adaptation-miatoll (1.0.7) bookworm; urgency=medium
 
   * Fix miatoll-postboot service
