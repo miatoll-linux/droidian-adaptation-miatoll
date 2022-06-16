@@ -9,3 +9,6 @@ fi
 
 # Enable wlan modem
 echo ON | tee /dev/wlan
+
+# Disable lowmemorykiller
+echo 0 | tee /sys/module/lowmemorykiller/parameters/*_lmk
