@@ -5,7 +5,7 @@ Requires=lxc@android.service
 [Service]
 Type=oneshot
 ExecStartPre=/bin/sleep 5
-ExecStart=/bin/sh -c 'echo ON > /dev/wlan'
+ExecStart=/usr/bin/miatoll-postboot.sh
 
 [Install]
 WantedBy=multi-user.target
