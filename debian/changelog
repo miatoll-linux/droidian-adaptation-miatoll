@@ -1,3 +1,9 @@
+adaptation-miatoll (1.0.7) bookworm; urgency=medium
+
+  * Fix miatoll-postboot service
+
+ -- Marcel Alexandru Nitan <nitan.marcel@protonmail.com>  Thu, 16 Jun 2022 18:43:57 +0300
+
 adaptation-miatoll (1.0.6) bookworm; urgency=medium
 
   * Add post-boot service
