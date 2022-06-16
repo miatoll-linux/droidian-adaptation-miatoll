@@ -1,3 +1,11 @@
+adaptation-miatoll (1.0.6) bookworm; urgency=medium
+
+  * Add post-boot service
+  * Disable lowmemorykiller
+  * Set swappiness value to 90
+
+ -- Marcel Alexandru Nitan <nitan.marcel@protonmail.com>  Thu, 16 Jun 2022 18:35:26 +0300
+
 adaptation-miatoll (1.0.5) bookworm; urgency=medium
 
   * Add scale-to-fit and get-app-id app scaling helpers.
