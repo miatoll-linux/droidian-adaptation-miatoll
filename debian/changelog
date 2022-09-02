@@ -1,3 +1,9 @@
+adaptation-miatoll (1.0.9fix) bookworm; urgency=medium
+
+  * Increment version to publish version with correct control compression
+
+ -- Marcel Alexandru Nitan <nitan.marcel@protonmail.com>  Fri, 02 Sep 2022 23:45:25 +0300
+
 adaptation-miatoll (1.0.9) bookworm; urgency=medium
 
   * deb: Fix package sideload create
