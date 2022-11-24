@@ -1,3 +1,9 @@
+adaptation-miatoll (1.1.0) bookworm; urgency=medium
+
+  * Fix phone calls.
+
+ -- Marcel Alexandru Nitan <nitan.marcel@protonmail.com>  Fri, 24 Sep 2022 00:00:02 +0300
+
 adaptation-miatoll (1.0.9fix) bookworm; urgency=medium
 
   * Increment version to publish version with correct control compression
